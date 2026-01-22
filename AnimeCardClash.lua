@@ -33,37 +33,37 @@ local UIS = game:GetService("UserInputService")
 
 -- Net
 local Net = {
-	teleportmap = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("teleport"),
-	fightenemydungeon = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("dungeonFightEnemy"),
-	votedungeon = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("dungeonVoteModifier"),
-	buyraiditem = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("craft"),
-	buyrankitem = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("buyRankedShopItem"),
-	fightStoryBoss = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("fightStoryBoss"),
-	fightRaidMinion = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("fightRaidMinion"),
-	fightRaidBoss = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("fightRaidBoss"),
-	setPartySlot = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("setDefaultPartySlot"),
-	removePartyPosition = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("removePartyPosition"),
-	addCardToParty = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("addCardToParty"),
-	fightBattleTowerWave = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("fightBattleTowerWave"),
-	fightGlobalBoss = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("fightGlobalBoss"),
-	fightInfinite = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("fightInfinite"),
-	forfeitBattle = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("forfeitBattle"),
-	claimInfinite = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("claimInfinite"),
-	pauseInfinite = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("pauseInfinite"),
-	netSetting = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("setSetting"),
-	activateAllLuckIndex = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("activateAllLuckIndex"),
-	activeCardIndex = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("claimCardIndexRewards"),
-	mergeCard = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("mergeCard"),
-	fightGlobalBossZone = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("fightGlobalBossZone"),
-	claimEvent = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("claimDailyQuest"),
-	useItem = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("useItem"),
-	redeemEvent = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("redeemCode"),
-	upgradePoint = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("allocateUpgradePoint"),
-	fightPlayer = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("fightPlayer"),
-	fightEvent = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("fightRankedOpponent"),
-	refreshEvent = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("refreshRanked"),
-	showBattle = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("setSetting"),
-	useXpBook = ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("useXpBook"),
+	teleportmap = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("teleport"),
+	fightenemydungeon = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("dungeonFightEnemy"),
+	votedungeon = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("dungeonVoteModifier"),
+	buyraiditem = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("craft"),
+	buyrankitem = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("buyRankedShopItem"),
+	fightStoryBoss = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("fightStoryBoss"),
+	fightRaidMinion = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("fightRaidMinion"),
+	fightRaidBoss = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("fightRaidBoss"),
+	setPartySlot = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("setDefaultPartySlot"),
+	removePartyPosition = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("removePartyPosition"),
+	addCardToParty = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("addCardToParty"),
+	fightBattleTowerWave = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("fightBattleTowerWave"),
+	fightGlobalBoss = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("fightGlobalBoss"),
+	fightInfinite = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("fightInfinite"),
+	forfeitBattle = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("forfeitBattle"),
+	claimInfinite = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("claimInfinite"),
+	pauseInfinite = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("pauseInfinite"),
+	netSetting = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("setSetting"),
+	activateAllLuckIndex = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("activateAllLuckIndex"),
+	activeCardIndex = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("claimCardIndexRewards"),
+	mergeCard = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("mergeCard"),
+	fightGlobalBossZone = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("fightGlobalBossZone"),
+	claimEvent = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("claimDailyQuest"),
+	useItem = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("useItem"),
+	redeemEvent = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("redeemCode"),
+	upgradePoint = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("allocateUpgradePoint"),
+	fightPlayer = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("fightPlayer"),
+	fightEvent = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("fightRankedOpponent"),
+	refreshEvent = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("refreshRanked"),
+	showBattle = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("setSetting"),
+	useXpBook = ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("useXpBook"),
 }
 
 -------------------------------------------------
@@ -985,7 +985,7 @@ function AutoDepositOrnament()
 				if State.autoTradeOrnament then Net.tradeOrnament:FireServer(unpack(args)) end
 				task.wait(0.1)
 			end
-			ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("collectSnowflakes"):FireServer()
+			ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("collectSnowflakes"):FireServer()
 
 			task.wait(300)
 		end
@@ -1940,7 +1940,7 @@ function teleportToRaid(raidName)
 	local raidInfo = RaidData[raidName]
 	if raidInfo and raidInfo.teleportName then
 		local args = { raidInfo.teleportName }
-		ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions")
+		ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions")
 			:WaitForChild("teleport")
 			:FireServer(unpack(args))
 		Utils.notify("Raid Boss", "📍 Teleported to " .. raidName, 2)
@@ -2058,7 +2058,7 @@ function RaidMinionController.runAuto()
 	local args = {
 		"raid_creator_of_flames",
 	}
-	ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("teleport"):FireServer(unpack(args))
+	ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("teleport"):FireServer(unpack(args))
 
 	task.spawn(function()
 		while State.autoEnabledMinion and runId == State.autoRunIdMinion do
@@ -2144,7 +2144,7 @@ end
 local function claimExploration(mode)
 	pcall(function()
 		Net.claimExploration = Net.claimExploration
-			or ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("claimExploration")
+			or ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("claimExploration")
 		Net.claimExploration:FireServer(mode)
 	end)
 end
@@ -2152,7 +2152,7 @@ end
 local function startExploration(mode, cards)
 	pcall(function()
 		Net.startExploration = Net.startExploration
-			or ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions"):WaitForChild("startExploration")
+			or ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions"):WaitForChild("startExploration")
 		Net.startExploration:FireServer(mode, cards)
 	end)
 end
@@ -4582,7 +4582,7 @@ UpgradeTab:Button({
 	Icon = "lucide:rotate-ccw",
 	Callback = function()
 		local args = { "base" }
-		ReplicatedStorage:WaitForChild("games/acc/src/shared/network@eventDefinitions")
+		ReplicatedStorage:WaitForChild("../out/acc/shared/network@eventDefinitions")
 			:WaitForChild("resetUpgrades")
 			:FireServer(unpack(args))
 		Utils.notify("Upgrade", "🔄 Upgrade points reset!", 2)
