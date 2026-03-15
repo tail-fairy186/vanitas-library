@@ -189725,7 +189725,6 @@ return {
     "ukpd",
     "ukraina",
     "ukrat",
-    "uks",
     "uksorilokal",
     "uksw",
     "ukt",
